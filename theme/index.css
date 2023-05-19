@@ -1,12 +1,12 @@
 
         body {
-            padding: 15px;
-            font-size: 14px;
+            padding: 15px 0 60px 0;
             font-family: "Helvetica Neue", Helvetica, "PingFang SC", "Hiragino Sans GB", "Microsoft YaHei", "微软雅黑", Arial, sans-serif;
         }
 
         .content {
-            width: 900px;
+            width: 1000px;
+            min-width: 900px;
             margin: 0 auto;
         }
 
@@ -31,8 +31,9 @@
             max-width: 100%;
         }
 
-        #content>p {
-            margin: 6px 0;
+        .content>p {
+            margin: 10px 0;
+            line-height: 34px;
         }
 
         #qrcode {
@@ -47,9 +48,6 @@
             font-weight: bold;
         }
 
-        p {
-            line-height: 34px;
-        }
         .userlogo{
             width: 120px;
             text-align: center;
@@ -59,4 +57,18 @@
             justify-content: flex-start;
             align-content: center;
             height: 130px;
+        }
+        .flowcenter{
+             justify-content: center;
+        }
+        .langlist{
+            padding: 30px 0 0 10px;
+            text-align: center;
+        }
+        .langbtn{
+             padding: 4px 8px;
+    height: 30px;
+    width: 60px;
+    margin-right: 30px;
+    cursor: pointer;
         }

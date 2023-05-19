@@ -8,15 +8,13 @@
     <title>大黄鸭鸭Rubber Ducks</title>
     <link rel="shortcut icon" type="image/x-icon" href="favicon.ico">
     <script src="https://jic.talkingdata.com/app/h5/v1?appid=24F15E8B96FA4B0BB45540156C97EB92&vn=v1.0&vc=1.0.1"></script>
-    <!-- 引入样式 -->
-    <link rel="stylesheet" href="https://unpkg.com/element-ui/lib/theme-chalk/index.css">
     <link rel="stylesheet" type="text/css" href="./theme/index.css">
 </head>
 
 <body>
-    <div class="content">
+    <div id="google_translate_element" class="content">
  
-        	<div class="flowrow">
+        	<div class="flowrow flowcenter">
         		<div class="userlogo"><img src="./duck_64.png"></div>
         		<div>
         			<h1 style="margin-top: 0;">大黄鸭鸭Rubber Ducks</h1>
@@ -44,4 +42,12 @@
             <p> <a href="./facebeauty" title="九天诗歌" target="_blank">点这里</a> </p>
             <hr>
     </div>
+            <div class="content langlist">
+                <button class="langbtn" onclick="changeLang(this);"  value="zh-cn">中文</button>
+                <button class="langbtn" onclick="changeLang(this);"  value="en">English</button>
+            </div>
+
 </body>
+        <script type="text/javascript" src="https://translate.google.com/translate_a/element.js?cb=gtElInit&client=wt"></script>
+        <script type="text/javascript" src="./theme/index.js"></script>
+</html>
